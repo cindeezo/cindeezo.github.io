@@ -1,0 +1,479 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+width: 100vw;
+height: 100vh;
+}
+nav {
+width: 100%;
+height: 70px;
+background: WHITE;
+}
+
+.top-bar{
+    width: 100%;
+    border-bottom: transparent;
+  }
+  nav .meta {
+    width: 650px;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+  }
+
+.maintitle span {
+    color: lightslategray;
+}
+
+header,
+section,
+footer {
+width: 100%;
+height: 135vh;
+}
+
+header {
+background: url('https://universalpreservationhall.org/wp-content/uploads/sites/5/2018/04/Moving-Boxes-b.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+font-family: Avenir;
+color: black;
+background-attachment: fixed;
+}
+
+#one {
+    background-color:  lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Avenir;
+    color: white;
+    background-attachment: fixed;
+    font-family: avenir;
+}
+
+#sectiontitle {
+    position: relative;
+    top: -210px;
+    left: 580px;
+    font-size: 60px;
+}
+
+#lorem {
+    position: relative;
+    top: 20px;
+    left: -110px;
+    font-size: 30px;
+}
+
+#two {
+background: url(https://movingkings.com/wp-content/uploads/2018/04/Unpacking.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.7;
+}
+
+#three {
+    background-color: lightslategray;
+}
+
+#four {
+    background: url(https://www.exactviral.com/wp-content/uploads/2018/05/Movers-and-packers.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 1450px; */
+    background-position: center; 
+    background-size: cover;
+    /* opacity: 0.7; */
+    align-items: center;
+}
+
+footer {
+    background-repeat: no-repeat;
+ background-color: lightslategray;
+ color: white;
+}
+
+#boxedup {
+height: 100%;
+font-family: Avenir;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+#boxedup:hover {
+    cursor: pointer;
+    color: #b37450;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+div.background {
+    border: 2px transparent;
+  }
+  
+  div.transbox {
+    margin: 0px;
+    background-color: #ffffff;
+    border: 1px solid white;
+    opacity: 0.8;
+    filter: alpha(opacity=55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 166px;
+    height: 430px;
+    width: 760px;
+    left: 336px;
+    border-radius: 31px;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    font-family: Avenir;
+    position: absolute;
+    top: -14px;
+    right: 200px;
+    font-size: 20px;
+  }
+
+  #name {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    font-family: Avenir;
+    position: absolute;
+    top: 59px;
+    right: 595px;
+    font-size: 18px;
+  }
+
+  #email {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    font-family: Avenir;
+    position: absolute;
+    top: 142px;
+    right: 557px;
+    font-size: 18px;
+  }
+
+  #phone {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    font-family: Avenir;
+    position: absolute;
+    top: 230px;
+    right: 554px;
+    font-size: 18px;
+  }
+
+  #nametext {
+      position: absolute;
+      width: 550px;
+      height: 25px;
+      top: 96px;
+      left: 183px;
+      font-family: Avenir;
+      font-size: 16px;
+  }
+
+  #emailtext {
+    position: absolute;
+    width: 550px;
+    height: 25px;
+    top: 181px;
+    left: 184px;
+    font-family: Avenir;
+    font-size: 16px;
+  }
+
+  #phonetext {
+    position: absolute;
+    width: 550px;
+    height: 25px;
+    top: 269px;
+    left: 184px;
+    font-family: Avenir;
+    font-size: 16px;
+  }
+  
+  .submit {
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 330px;
+    left: 339px;
+
+  }
+
+  .submit:hover {
+      cursor: pointer;
+      background-color: grey;
+      transition: box-shadow .25s;
+  }
+
+  nav {
+    background-color: rgba(255,255,255,.97);
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+  }
+
+  #navigation {
+  display: block;
+  color: grey;
+  font-size: 15px;
+  width: 650px;
+  margin: 0 auto;
+  }
+
+  #home{ 
+    display: inline-block;
+    position: relative;
+    left: 484px;
+    top: 4px;
+    font-family: Avenir;
+  }
+
+  #home:hover {
+    cursor: pointer;
+    transition: .3s;
+    color: lightslategray;
+  }
+
+  #aboutus {
+    display: inline-block;
+    position: relative;
+    left: 544px;
+    top: 4px;
+    font-family: Avenir;
+  }
+
+  #aboutus:hover {
+      cursor: pointer;
+      transition: .3s;
+    color: lightslategray;
+  }
+
+  #team {
+    display: inline-block;
+    position: relative;
+    left: 614px;
+    top: 3px;
+    font-family: Avenir;
+  }
+
+  #team:hover {
+      cursor: pointer;
+      transition: .3s;
+    color: lightslategray;
+  }
+
+  #contact {
+    display: inline-block;
+    position: relative;
+    left: 674px;
+    top: 4px;
+    font-family: Avenir;
+  }
+
+  #contact:hover {
+      cursor: pointer;
+      transition: .3s;
+    color: lightslategray;
+  }
+
+ #person {
+     position: relative;
+ }
+
+ .list {
+    letter-spacing: 2px;
+    line-height: 4;
+    font-size: 14px;
+    font-family: Avenir;
+    list-style: none;
+ }
+
+ .list:hover {
+     cursor: pointer;
+ }
+
+ #product {
+    font-family: Avenir;
+ }
+
+ #resources {
+     font-family: Avenir;
+ }
+
+ #company {
+     font-family: Avenir;
+ }
+
+#waiting {
+    font-family: Avenir;
+    font-weight: bold;
+    position: relative;
+    top: 370px;
+    left: 289px;
+    font-size: 60px;
+    color: black;
+}
+
+#started {
+    font-family: avenir;
+    width: 280px;
+    height: 80px;
+    position: relative;
+    top: 490px;
+    left: 590px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#started:hover {
+    cursor: pointer;
+}
+
+ #testimonials {
+    font-family: avenir;
+    position: absolute;
+    left: 494px;
+    margin: 86px;
+    color: white;
+    font-size: 41px;
+ }
+
+#boxes1 {
+    width: 340px;
+    height: 310px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    left: 110px;
+    top: 290.25px;
+    transition: all .2s ease-in-out;
+}
+
+#boxes1:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+.testimony {
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 15px;
+    top: 120px;
+}
+
+.fivestars {
+    width: 120px;
+    position: relative;
+    top: -88px;
+    left: 50px;
+}
+
+.readmore {
+    font-family: avenir;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    left: -59px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.readmore:hover {
+    cursor: pointer;
+    transition: .3s;
+    background-color: grey;
+}
+
+#boxes2 {
+    width: 340px;
+    height: 310px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    left: 541px;
+    top: -18px;
+    transition: all .2s ease-in-out;
+}
+
+#boxes2:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+#boxes3 {
+    width: 340px;
+    height: 310px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    left: 971px;
+    top: -328px;
+    transition: all .2s ease-in-out;
+}
+
+#boxes3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#productlist {
+    position: relative;
+    top: 220px;
+    left: 170px;
+}
+
+#resourceslist {
+    position: relative;
+    top: -33px;
+    left: 609px;
+}
+
+#companylist {
+    position: relative;
+    top: -289px;
+    left: 1052px;
+}
